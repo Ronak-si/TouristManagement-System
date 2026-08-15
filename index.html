@@ -3,162 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tourist Managment System</title>
+    <title>Tourist Management System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <header>
-            <div class="logo">
-                <a href="#"><img src="logo.png" alt="logo"></a>
-            </div>
-            <nav class="nav-menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#designations">Designations</a></li>
-                    <li><a href="#hotels">Hotels</a></li>
-                    <li><a href="#activities">Activities</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="logo">
+            <a href="#"><img src="logo.png" alt="logo"></a>
+        </div>
+
+        <!-- Pure CSS Hamburger Toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#designations">Designations</a></li>
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
+        <!-- HERO SECTION -->
         <section class="hero">
             <div class="hero-image">
                 <img src="hero.jpg" alt="hero image">
             </div>
             <div class="hero-content">
-                <h1>Welcome to Our Travel Website </h1>
+                <h1>Welcome to Our Travel Website</h1>
                 <p>Discover amazing destinations and Book your next trip with Us.</p>
-                <a href="#" class="hero-button">Book Now</a>
+                <a href="#contact" class="hero-button">Book Now</a>
             </div>
         </section>
-        <section id="designations"  class="designations">
+
+        <!-- POPULAR DESTINATIONS -->
+        <section id="designations" class="designations">
             <h2>Popular Designations</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="destination1.jpg" alt="">
+                    <img src="destination1.jpg" alt="Taj Mahal">
                     <h3>Taj Mahal</h3>
                     <p>The Taj Mahal looms fairytale-like from the banks of the Yamuna River. It's India’s most recognized monument and is also one of the Seven Wonders of the World.</p>
-
                 </div>
                 <div class="destination-item">
-                    <img src="destination2.jpg" alt="">
+                    <img src="destination2.jpg" alt="Manali">
                     <h3>Manali</h3>
                     <p>The frozen mountain, chilly winds, rivers, lakes and all that greenery are sure to make you feel blessed.</p>
-                    
                 </div>
                 <div class="destination-item">
-                    <img src="destination3.jpg" alt="">
+                    <img src="destination3.jpg" alt="Munsyari">
                     <h3>Munsyari</h3>
-                    <p> visit Munsiyari to escape the bustling life of the cities and to feel the tranquillity of this place.</p>
-                    
+                    <p>Visit Munsiyari to escape the bustling life of the cities and to feel the tranquillity of this place.</p>
                 </div>
             </div>
+        </section>
+
+        <!-- FEATURED HOTELS -->
         <section id="hotels" class="designations">
             <h2>Featured Hotels</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="hotel1.jpg" alt="">
-                    <h3>The hills view</h3>
-                    <p>The Taj Mahal looms fairytale-like from the banks of the Yamuna River. It's India’s most recognized monument and is also one of the Seven Wonders of the World.</p>
-
+                    <img src="hotel1.jpg" alt="The hills view">
+                    <h3>The Hills View</h3>
+                    <p>Experience world-class luxury paired with breathtaking panoramic views of the surrounding mountains.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="hotel2.jpg" alt="">
+                    <img src="hotel2.jpg" alt="The Orchard Green Resort">
                     <h3>The Orchard Green Resort</h3>
-                    <p>The frozen mountain, chilly winds, rivers, lakes and all that greenery are sure to make you feel blessed.</p>
-                    
+                    <p>Nestled amidst lush apple orchards, offering serene stays, cozy bonfire nights, and premium amenities.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="hotel3.jpg" alt="">
-                    <h3>Milam inn</h3>
-                    <p>Hotel Milam inn is Munsiyari's best hotel with panoramic view of Panchachuli peaks. If you are looking for the unmatched hospitality, panoramic views of Himalayas and dense forest </p>
-                    
+                    <img src="hotel3.jpg" alt="Milam Inn">
+                    <h3>Milam Inn</h3>
+                    <p>Hotel Milam Inn is Munsiyari's best hotel with panoramic views of Panchachuli peaks and unmatched hospitality.</p>
                 </div>
             </div>
         </section>
+
+        <!-- FEATURED ACTIVITIES -->
         <section id="activities" class="designations">
             <h2>Featured Activities</h2>
             <div class="destination-grid">
                 <div class="destination-item">
-                    <img src="activity1.jpg" alt="">
-                    <h3>view</h3>
-                    <p>The Taj Mahal looms fairytale-like from the banks of the Yamuna River. It's India’s most recognized monument and is also one of the Seven Wonders of the World.</p>
-
+                    <img src="activity1.jpg" alt="Sightseeing View">
+                    <h3>Mountain Sightseeing</h3>
+                    <p>Witness surreal sunrise and sunset vistas from elevated vantage points across Himalayan ridges.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="activity2.jpg" alt="">
-                    <h3>Playing with snow</h3>
-                    <p>The frozen mountain, chilly winds, rivers, lakes and all that greenery are sure to make you feel blessed.</p>
-                    
+                    <img src="activity2.jpg" alt="Playing with snow">
+                    <h3>Playing With Snow</h3>
+                    <p>Engage in thrilling snow activities, skiing, and winter sports across frozen highland slopes.</p>
                 </div>
                 <div class="destination-item">
-                    <img src="activity3.jpg" alt="">
-                    <h3>Enjoying in cart</h3>
-                    <p>Exploring the nature.</p>
-                    
+                    <img src="activity3.jpg" alt="Enjoying in cart">
+                    <h3>Nature Exploration</h3>
+                    <p>Take relaxing cart rides and off-road trails while exploring nature and scenic local valleys.</p>
                 </div>
             </div>
         </section>
-        
-<section id="about" class="about">
-    <h3>About Us</h3>
-    <p>Our Company is dedicated to providing the best travel experiences to our customers. We specialize in creating custom itenaries</br> that cater to each individuals interests and preferences.</p>
-    <div class="team-members">
-        <h3>Meet Our Team</h3>
 
-    </div>
-</section>
-<section id="contact" class="contact">
-    <h3>Contact Us</h3>
-    <div class="contact-info">
-<P> If you have any questions or would like to book a trip,please fill out the form below or contact us using the information provided.</P>
-<ul>
-    <li>
-        <i class="fas fa-map-marker-alt"></i>123 Uttarakhand,India
-    </li>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <h3>About Us</h3>
+            <p>Our Company is dedicated to providing the best travel experiences to our customers. We specialize in creating custom itineraries that cater to each individual's interests and preferences.</p>
+            <div class="team-members">
+                <h3>Meet Our Team</h3>
+            </div>
+        </section>
 
-<li><i class="fas fa-envelope "></i><a href="mailto:info@travelcompany.com">info@travelcompany.com</a>
-</li>
-<li><i class="fas fa-phone-alt"></i>
-    <a href="tel:999-888-4152">999-888-4152</a>
-</li>
-</ul>
-</div>
-<form action="#" class="form">
-    <div class="form-group">
-        <input type="name" name="name" id="name"
-         placeholder="Enter your Name"/>
-    </div>
-    <div class="form-group">
-        <input type="email" name="email" id="email"
-         placeholder="Enter Your Email"/>
-    </div>
-    <div class="form-group">
-        <textarea name="textarea" cols="30" rows="10"
-         placeholder="Message"/></textarea>
-    </div>
-    <button type="Submit">Send Message</button>
-</form>
-</section>
-<footer>
-    <div class="social-icon">
-        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i>
-   </a>
-   <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter"></i>
-   </a>
-   <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i>
-   </a>
-    </div>
-    <p>&copy; 2024 Your Travel Managment System.All Rights Reserverd.</p>
-</footer>
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <h3>Contact Us</h3>
+            <div class="contact-info">
+                <p>If you have any questions or would like to book a trip, please fill out the form below or contact us using the information provided.</p>
+                <ul>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i> 123 Uttarakhand, India
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i> <a href="mailto:info@travelcompany.com">info@travelcompany.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i> <a href="tel:9998884152">999-888-4152</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="#" method="POST" class="form">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="social-icon">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2026 Tourist Management System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/6558443b63.js" crossorigin="anonymous"></script>
 </body>
-<script
-src="https://kit.fontawesome.com/6558443b63.js"
-crossorigin="anonymous"
-></script>
 </html>
